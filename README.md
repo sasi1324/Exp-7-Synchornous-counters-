@@ -1,4 +1,4 @@
-# Exp-6-Synchornous-counters - up counter and down counter 
+![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/7f742a4c-f04b-46d2-b947-c22496dd23a4)### Exp-6-Synchornous-counters - up counter and down counter 
 ### AIM: To implement 4 bit up and down counters and validate  functionality.
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
@@ -46,15 +46,61 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+Create a New Project: Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
+Create a New Design File:
+Once the project is created, right-click on the project name in the Project Navigator and select "Add New File." Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language. 3. Write the Combinational Logic Code:
 
+Open the newly created Verilog or VHDL file and write the code for your combinational logic. 4. Compile the Project: To compile the project, click on "Processing" > "Start Compilation" in the menu. Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device. 5. Analyze and Fix Errors:
+
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window. Review and fix any issues in your code if necessary. View the RTL diagram. 6. Verification: Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All.
+
+Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
 
 
 ### PROGRAM 
+
+
+
+
+i)upcounter
+
+
+
+
+![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/38f619f2-7453-4afb-9bd3-dbb8fb6247ff)
+
+
+
+
+
+
+
+
+
+
+ii)downcounter
+
+
+
+
+
+
+![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/8e326b9e-7496-42c2-9724-46868dd69c9f)
+
+
+
+
+
+
+
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+
+
+Developed by: Sasinthara
+
+
+RegisterNumber: 23005130 
 */
 
 
@@ -66,6 +112,30 @@ RegisterNumber:
 
 
 
+UP COUNTER
+
+
+
+
+
+
+
+
+
+![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/9e028656-3fbb-4374-9471-e4a38c562646)
+
+
+
+
+
+
+DOWN COUNTER  
+
+
+
+
+
+![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/2a861eec-59d5-462e-b496-fb91136419c1)
 
 
 
@@ -77,10 +147,67 @@ RegisterNumber:
 
 
 
+UP COUNTER
+
+
+
+![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/ca5a4798-78c7-4889-90cb-a75824e56dd2)
+
+
+
+
+
+
+
+DOWN COUNTER  
+
+
+
+
+
+
+![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/d948f05b-6b82-47f8-a033-5607e08481ba)
+
+
+
+
+
+
+
+
 
 ### TRUTH TABLE 
 
 
+
+
+i)upcounter
+
+
+
+
+
+
+![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/8fa2fc9c-a0a2-4767-85d4-01666e4777aa)
+
+
+
+
+
+
+DOWN COUNTER  
+
+
+
+
+
+
+![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/36a1261c-c4c6-4900-8ae0-518cd193513e)
+
+
+
+## RESULTS
+By this we have verified the truth table of 4-bit up-counter using verilog.
 
 
 
