@@ -1,4 +1,4 @@
-![image](https://github.com/sasi1324/Exp-7-Synchornous-counters-/assets/150313315/7f742a4c-f04b-46d2-b947-c22496dd23a4)### Exp-6-Synchornous-counters - up counter and down counter 
+## Exp-6-Synchornous-counters - up counter and down counter 
 ### AIM: To implement 4 bit up and down counters and validate  functionality.
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
